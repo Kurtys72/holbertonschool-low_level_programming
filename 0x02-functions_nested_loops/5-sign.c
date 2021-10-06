@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * print_sign - check character
+ * @n: integer value
+ * Return: always succes(0)
  */
 int print_sign(int n)
 

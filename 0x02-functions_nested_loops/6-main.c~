@@ -1,0 +1,22 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+  * abs_val - Computes the absolute value of an integer.
+  * @r: The number to be computed.
+  *
+  * Return: Absolute value of number or zero
+  */
+int _abs_val(int r)
+{
+	if (r < 0)
+	{
+		int abs_val;
+
+		abs_val = r * -1;
+
+		return (abs_val);
+	}
+
+	return (r);
+}

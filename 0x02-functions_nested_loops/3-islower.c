@@ -1,7 +1,9 @@
 #include <ctype.h>
 
 /**
- *
+ * _islower - check character
+ * @c: integer value
+ * Return: always succes(0)
  */
 int _islower(int c)
 {

@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int print_sign(int n)
 
 {
 	if (n > 0)
@@ -24,4 +24,5 @@ int main(void)
 		return (0);
 	}
 }
+
 

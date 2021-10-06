@@ -5,7 +5,7 @@
  * @c: integer value
  * Return: always succes(0)
  */
-int _isalpha(int c)
+int _isalpha(c)
 {
 	if (isalpha(c))
 	{

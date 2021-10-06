@@ -1,11 +1,11 @@
 #include <ctype.h>
 
 /**
- * _isaalpha - check character
+ * _isalpha - check character
  * @c: integer value
  * Return: always succes(0)
  */
-int _isalpha(c)
+int _isalpha(int c)
 {
 	if (isalpha(c))
 	{
@@ -16,5 +16,6 @@ int _isalpha(c)
 		return (0);
 	}
 }
+
 
 

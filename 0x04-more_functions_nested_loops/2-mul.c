@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * int mul - check character
- * @a&b: integer value
+ * mul - multiplicator
+ * @a: integer value
+ * @b: integer value
  * Return: always succes(0)
  */
 int mul(int a, int b)
-	
 {
 	return (a * b);
 }

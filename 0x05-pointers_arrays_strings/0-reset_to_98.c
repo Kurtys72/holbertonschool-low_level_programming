@@ -5,12 +5,11 @@
  * reset_to_98 - Updates the value it points to 98
  * @n: pointer to n
  *
- * Return: void value
+ * Return: pointer value
  */
-void reset_to_98
+int main(n);
 
 {
-	int *n;
 	*n = 98;
 
 	return (0);
